@@ -13,10 +13,10 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
         <activity
-            android:name=".com.principal"
+            android:name=".principal"
             android:label="@string/plataforma" android:theme="@style/Theme.MaterialComponents.Light.NoActionBar"  ></activity>
         <activity
-            android:name=".com.splash"
+            android:name="splash"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.NoActionBar">
             <intent-filter>

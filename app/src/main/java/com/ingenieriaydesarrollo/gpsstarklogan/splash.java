@@ -6,10 +6,8 @@ import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.os.Handler;
 import android.widget.TextView;
-
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.ingenieriaydesarrollo.gpsstarklogan.R;
 
 public class splash extends AppCompatActivity {
 
@@ -36,11 +34,7 @@ public class splash extends AppCompatActivity {
             public void run() {
 
                 Intent i = new Intent(splash.this, principal.class);
-
                 startActivity(i);
-
-                // close this activity
-
                 finish();
 
             }
